@@ -1,4 +1,4 @@
-var albums =[
+var home =[
     "Dad_character.png",
     "Mom character.jpg",
     "Sister character.jpg",
@@ -6,6 +6,6 @@ var albums =[
 ]
 var i=0;
 function next(){
-    document.getElementById("albums").src=albums[i]
+    document.getElementById("home").src=home[i]
     i=i+1;
 }
